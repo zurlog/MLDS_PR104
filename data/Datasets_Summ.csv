@@ -1,6 +1,7 @@
 ﻿Name,Instances,Buggy,Features,Source
 CM1,498,49,22,CM1 is a NASA spacecraft instrument written in C
-JM1,10885,2106,22,JM1 is written in C and is a real-time predictive ground system: Uses simulations to generate predictions
+JM1,10885,2106,22,JM1 is written in C and is a real-time predictive ground system. <br /> It uses simulations to generate predictions
 KC1,2109,326,22,KC1 is a C++ system implementing storage management for receiving and processing ground data
 KC2,522,107,22, C++ functions used in a scientific data project which is separate from another part known as KC1. <br /> These share some third-party software libraries with no other software overlap
 PC1,1109,77,22,Data from C functions. Flight software for earth orbiting satellite
+ALL_DATA,15123,2665,22,Combined Dataset
