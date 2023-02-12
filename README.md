@@ -12,7 +12,19 @@ a paper by **Goyal, S. (2020)** published in *Int. J. Knowl. Syst. Sci.*, **11(2
 This repository contains the reproduction of a small paper on software quality prediction as a university project. The original paper provides an overview of different software quality prediction models and their performance in terms of accuracy, recall and ROC AUC. The goal of this reproduction project is to validate the findings of the original paper, provide a deeper understanding of the various software quality prediction models, and to critically evaluate the approach and choices made by the authors.
 
 The work utilizes data collected from NASA projects using McCabe metrics which are made available in the [PROMISE repository](http://promise.site.uottawa.ca/SERepository/index.html). This research is done with six fault prediction benchmark datasets named `CM1`, `KC1`, `KC2`, `PC1`, `JM1`, and `ALL_DATA` (a combination of the previous datasets). The data has been collected using McCabe and Halstead features extractors from the source code of multiple projects.
+<br>
 
+| Name | Instances | Buggy | Clean | Imbalance Ratio | Features | Source |
+| ---- | --------- | ----- | ----- | --------------- | ------- | ------ |
+| CM1  | 498       | 49    | 449   | 0.109          | 22      | CM1 is a NASA spacecraft instrument written in C |
+| JM1  | 10885     | 2106  | 8779  | 0.240          | 22      | JM1 is written in C and is a real-time predictive ground system. It uses simulations to generate predictions |
+| KC1  | 2109      | 326   | 1783  | 0.183          | 22      | KC1 is a C++ system implementing storage management for receiving and processing ground data |
+| KC2  | 522       | 107   | 415   | 0.258          | 22      | C++ functions used in a scientific data project which is separate from another part known as KC1. These share some third-party software libraries with no other software overlap |
+| PC1  | 1109      | 77    | 1032  | 0.075          | 22      | Data from C functions. Flight software for earth orbiting satellite |
+| ALL_DATA | 15123 | 2665  | 12458 | 0.214          | 22      | Combined Dataset |
+
+
+<br>
 The repository includes all the necessary code and data to reproduce the study, as well as a collection of the utility functions used in the analysis. The results obtained from the reproduction are also included, allowing for easy comparison with the original study. 
 The `data` folder contains the project data, the `ref` folder contains the project paper and the `scripts` folder contains notebooks in which the analysis is carried out and explained along with the setup and utility functions used.
 
