@@ -25,8 +25,8 @@ The work utilizes data collected from NASA projects using McCabe metrics which a
 
 
 <br>
-The repository includes all the necessary code and data to reproduce the study, as well as a collection of the utility functions used in the analysis. The results obtained from the reproduction are also included, allowing for easy comparison with the original study. 
-The `data` folder contains the project data, the `ref` folder contains the project paper and the `scripts` folder contains notebooks in which the analysis is carried out and explained along with the setup and utility functions used.
+
+The repository includes the code, data, and results necessary to reproduce the study. The `data` folder holds the benchmark datasets, the `ref` folder contains the original research paper, and the `scripts` folder holds the Jupyter notebooks for the analysis and setup of utility functions. The results from the reproduction are also provided in the `results` folder for an easy comparison with the original study.
 
 In addition to reproducing the paper, this repository also critiques the approach taken by the authors. One major criticism is that the authors did not properly handle the class imbalance problem, which can greatly impact the performance of the models. Furthermore, the authors used misleading and inadequate performance metrics, which also affected the conclusions of the results.
 
