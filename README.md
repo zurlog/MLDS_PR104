@@ -1,4 +1,9 @@
 # `PR104`
+[![Made withJupyter][jupyter-shield]][jupyter-url]
+[![Contributors][contributors-shield]][contributors-url]
+[![Forks][forks-shield]][forks-url]
+[![Issues][issues-shield]][issues-url]
+[![LinkedIn][linkedin-shield]][linkedin-url]
 
 ### Reproduction of a Software Quality Prediction Study
 
@@ -35,3 +40,19 @@ If you are interested in software quality prediction or simply want to learn abo
 So feel free to take a look, experiment with the code, and let me know if you have any questions or suggestions!
 
 ***
+
+<!-- MARKDOWN LINKS & IMAGES -->
+<!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
+[contributors-shield]: https://img.shields.io/github/contributors/zurlog/dpc-covid19.svg?style=for-the-badge
+[contributors-url]: https://github.com/zurlog/dpc-covid19/graphs/contributors
+[forks-shield]: https://img.shields.io/github/forks/zurlog/dpc-covid19.svg?style=for-the-badge
+[forks-url]: https://github.com/zurlog/dpc-covid19/network/members
+[issues-shield]: https://img.shields.io/github/issues/zurlog/dpc-covid19.svg?style=for-the-badge
+[issues-url]: https://github.com/zurlog/dpc-covid19/issues
+[license-shield]: https://img.shields.io/github/license/zurlog/dpc-covid19.svg?style=for-the-badge
+[license-url]: https://github.com/zurlog/dpc-covid19/blob/master/LICENSE.txt
+[linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
+[linkedin-url]: https://www.linkedin.com/in/zurlogiovanni/
+[product-screenshot]: images/screenshot.png
+[jupyter-shield]: https://img.shields.io/badge/Made%20with-Jupyter-orange?style=for-the-badge&logo=Jupyter
+[jupyter-url]: https://jupyter.org/try
