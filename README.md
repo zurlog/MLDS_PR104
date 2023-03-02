@@ -16,6 +16,13 @@ a paper by **Goyal, S. (2020)** published in *Int. J. Knowl. Syst. Sci.*, **11(2
 
 This repository contains the reproduction of a small paper on software quality prediction as a university project. The original paper provides an overview of different software quality prediction models and their performance in terms of accuracy, recall and ROC AUC. The goal of this reproduction project is to validate the findings of the original paper, provide a deeper understanding of the various software quality prediction models, and to critically evaluate the approach and choices made by the authors.
 
+In addition to reproducing the paper, this repository also critiques the approach taken by the authors. One major criticism is that the authors did not properly handle the class imbalance problem, which can greatly impact the performance of the models. Furthermore, the authors used misleading and inadequate performance metrics, which also affected the conclusions of the results.
+
+If you are interested in software quality prediction or simply want to learn about the different models and techniques used in this field, this repository is for you! The code is well documented and easy to follow, making it an excellent resource for anyone looking to get started with software quality prediction. In addition, the critical evaluation of the original paper provides valuable insight into the limitations and potential improvements in this field of research.
+
+So feel free to take a look, experiment with the code, and let me know if you have any questions or suggestions!
+
+## Data
 The work utilizes data collected from NASA projects using McCabe metrics which are made available in the [PROMISE repository](http://promise.site.uottawa.ca/SERepository/index.html). This research is done with six fault prediction benchmark datasets named `CM1`, `KC1`, `KC2`, `PC1`, `JM1`, and `ALL_DATA` (a combination of the previous datasets). The data has been collected using McCabe and Halstead features extractors from the source code of multiple projects.
 <br>
 
@@ -31,13 +38,11 @@ The work utilizes data collected from NASA projects using McCabe metrics which a
 
 <br>
 
+## Usage
 The repository includes the code, data, and results necessary to reproduce the study. The `data` folder holds the benchmark datasets, the `ref` folder contains the original research paper, and the `scripts` folder holds the Jupyter notebooks for the analysis and setup of utility functions. The results from the reproduction are also provided in the `results` folder for an easy comparison with the original study.
 
-In addition to reproducing the paper, this repository also critiques the approach taken by the authors. One major criticism is that the authors did not properly handle the class imbalance problem, which can greatly impact the performance of the models. Furthermore, the authors used misleading and inadequate performance metrics, which also affected the conclusions of the results.
 
-If you are interested in software quality prediction or simply want to learn about the different models and techniques used in this field, this repository is for you! The code is well documented and easy to follow, making it an excellent resource for anyone looking to get started with software quality prediction. In addition, the critical evaluation of the original paper provides valuable insight into the limitations and potential improvements in this field of research.
 
-So feel free to take a look, experiment with the code, and let me know if you have any questions or suggestions!
 
 ***
 
