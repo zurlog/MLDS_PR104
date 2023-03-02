@@ -42,7 +42,15 @@ The work utilizes data collected from NASA projects using McCabe metrics which a
 <br>
 
 ## Usage
-The repository includes the code, data, and results necessary to reproduce the study. The `data` folder holds the benchmark datasets, the `ref` folder contains the original research paper, and the `scripts` folder holds the Jupyter notebooks for the analysis and setup of utility functions. The results from the reproduction are also provided in the `results` folder for an easy comparison with the original study.
+To run the analysis, you must have Python 3.x and the required libraries installed. The required libraries are listed and imported in the [`setup.ipynb`](https://github.com/zurlog/MLDS_PR104/blob/master/scripts/setup.ipynb) notebook. 
+
+The `dpc-covid19` repository contains the following folders:
+* `scripts` that contains the Jupyter notebooks for the analysis and setup of utility functions;
+* `conf`, if necessary, that contains configuration files used in scripts or jupyter notebook files;
+* `data`, that contains input benchmark datasets both in `.csv` and `.arff` format;
+* `results` contains outputs from the reproduction for an easy comparison with the original study, usually in the `.csv` format; 
+* `figures` that contains plot files
+* `reference` that contains any possibly referenced resource.
 
 <br>
 <br>
