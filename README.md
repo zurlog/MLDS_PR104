@@ -47,8 +47,8 @@ To run the analysis, you must have Python 3.x and the required libraries install
 The `dpc-covid19` repository contains the following folders:
 * `scripts` that contains the Jupyter notebooks for the analysis and setup of utility functions;
 * `conf`, if necessary, that contains configuration files used in scripts or jupyter notebook files;
-* `data`, that contains input benchmark datasets both in `.csv` and `.arff` format;
-* `results` contains outputs from the reproduction for an easy comparison with the original study, usually in the `.csv` format; 
+* `data`, that contains input benchmark datasets both in *'.csv'* and *'.arff'* format;
+* `results` contains outputs from the reproduction for an easy comparison with the original study, usually in the *'.csv* format; 
 * `figures` that contains plot files
 * `reference` that contains any possibly referenced resource.
 
