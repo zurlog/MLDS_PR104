@@ -51,7 +51,11 @@ The repository includes the code, data, and results necessary to reproduce the s
 ## Acknowledgments
 *References, Inspiration, Code Snippets, etc.*
 
-
+* [Goyal, S. (2020)](https://www.igi-global.com/article/comparison-of-machine-learning-techniques-for-software-quality-prediction/252885)
+* [Goyal, S. (2022) Handling Class-Imbalance with KNN (Neighbourhood) Under-Sampling for Software Defect Prediction. Artif Intell Rev 55, 2023–2064 (2022)](https://link.springer.com/article/10.1007/s10462-021-10044-w)
+* [Kan, S. H. (2003) Metrics and Models in Software Quality Engineering. Addison-Wesley Professional, 2003](https://books.google.it/books/about/Metrics_and_Models_in_Software_Quality_E.html?id=EaefcL3pWJYC&redir_esc=y)
+* [Nested versus non-nested cross-validation] (https://scikit-learn.org/stable/auto_examples/model_selection/plot_nested_cross_validation_iris.html#sphx-glr-auto-examples-model-selection-plot-nested-cross-validation-iris-py)
+* [Receiver Operating Characteristic (ROC) with cross validation](https://scikit-learn.org/stable/auto_examples/model_selection/plot_roc_crossval.html#sphx-glr-auto-examples-model-selection-plot-roc-crossval-py)
 
 ***
 
