@@ -44,6 +44,12 @@ The work utilizes data collected from NASA projects using McCabe metrics which a
 ## Usage
 The repository includes the code, data, and results necessary to reproduce the study. The `data` folder holds the benchmark datasets, the `ref` folder contains the original research paper, and the `scripts` folder holds the Jupyter notebooks for the analysis and setup of utility functions. The results from the reproduction are also provided in the `results` folder for an easy comparison with the original study.
 
+<br>
+<br>
+
+
+## Acknowledgments
+*References, Inspiration, Code Snippets, etc.*
 
 
 
