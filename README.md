@@ -44,7 +44,7 @@ The work utilizes data collected from NASA projects using McCabe metrics which a
 ## Usage
 To run the analysis, you must have Python 3.x and the required libraries installed. The required libraries are listed and imported in the [`setup.ipynb`](https://github.com/zurlog/MLDS_PR104/blob/master/scripts/setup.ipynb) notebook. 
 
-The `dpc-covid19` repository contains the following folders:
+The `MLDS_PR104` repository contains the following folders:
 * `scripts` that contains the Jupyter notebooks for the analysis and setup of utility functions;
 * `conf`, if necessary, that contains configuration files used in scripts or jupyter notebook files;
 * `data`, that contains input benchmark datasets both in *'.csv'* and *'.arff'* format;
